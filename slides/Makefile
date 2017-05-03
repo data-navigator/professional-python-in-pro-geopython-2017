@@ -1,6 +1,6 @@
-short = conda-uc-2017
-deck = conda-arcgis
-event = uc-2017
+short = arcgis-pro
+deck = arcgis-pro
+event = geopython-2017
 theme = esri-uc-2017
 upload_loc = 4326.us:esri/$(short)
 public_loc = https://4326.us/esri/$(short)
