@@ -13,7 +13,7 @@ check:
 	linkchecker --check-extern index.html
 
 pdf:
-	pandoc -o $(event)-$(deck)-presentation-handout.pdf -V fontsize=12pt -V mainfont=Helvetica --latex-engine=xelatex slides.md
+	pandoc -o $(event)-$(deck)-presentation-handout.pdf -V fontsize=12pt -V mainfont=Calibri --latex-engine=xelatex slides.md
 
 fullpdf:
 # decktape can't scrape HTTPS URIs with a relative path, swich directories.
