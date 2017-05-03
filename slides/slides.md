@@ -1,11 +1,8 @@
 % Professional Python Development in ArcGIS Pro
 % Clinton Dow
 
-<section data-background="images/title.png">
-<h2>[https://github.com/scw/conda-uc-2017-demo](https://github
-.com/scw/conda-uc-2017-demo)</h2>
-<h3>[High Quality PDF (2MB)](https://4326
-.us/esri/conda-uc/uc-2017-conda-arcgis-demo-full.pdf)</h3>
+<section>
+<h3>[High Quality PDF (2MB)](https://data-navigator.github.io/professional-python-in-pro-geopython-2017/geopython-2017-pro-presentation-handout.pdf)</h3>
 </section>
 
 Introduction {data-background="images/Picture2.jpg"}
