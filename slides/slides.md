@@ -5,7 +5,7 @@
 <h3>[High Quality PDF (2MB)](https://data-navigator.github.io/professional-python-in-pro-geopython-2017/geopython-2017-pro-presentation-handout.pdf)</h3>
 </section>
 
-Introduction {data-background="images/Picture2.jpg"}
+Introduction {data-background="../docs/images/Picture2.jpg"}
 ====================================================
 
 Intro
@@ -27,7 +27,7 @@ About me:
 
 Esri ArcGIS
 ===========
-![](images/logos/esri_logo_lrg.png){class="tight"} {data-background="images/Picture2.jpg"}
+![](../docs/images/logos/esri_logo_lrg.png){class="tight"} {data-background="../docs/images/Picture2.jpg"}
 
 
 Setting up ArcGIS Pro
@@ -42,8 +42,8 @@ Setting up ArcGIS Pro
 
 
 
-Why ArcGIS? ![](images/logos/Python_64x64.png){class="tight"} {data-background="images/Picture2.jpg"}
------------------------------------------------------------------------------------------------------
+Why ArcGIS? ![](../docs/images/logos/Arcgis-logo.png){class="tight"} {data-background="../docs/images/Picture2.jpg"}
+------------------------------------------------------------------------------------------------------------
 
  - Powerful and Proven technology
     - ARC/INFO released in 1982
@@ -69,7 +69,7 @@ Why ArcGIS? ![](images/logos/Python_64x64.png){class="tight"} {data-background="
     - Swiss Gov't examples (Canton Governments, Swiss Institute of Forest, Snow and Landscape Research etc)
 
 
-Why ArcGIS Pro? {data-background="images/Picture2.jpg"}
+Why ArcGIS Pro? {data-background="../docs/images/Picture2.jpg"}
 ---------------------------------------------------------------------------------------------------------
 
 Modern View for ArcGIS:
@@ -80,13 +80,13 @@ Modern View for ArcGIS:
  - Modern Python Experience
    - Supports environments and packages via Conda
 
-![](images/logos/arcgis_pro_python.png){style="width: 200px; background-color: rgba(255, 255, 255, 1);"}
+![](../docs/images/logos/arcgis_pro_python.png){style="width: 200px; background-color: rgba(255, 255, 255, 1);"}
 
 
 Python Packages and Environments
 ================================
 
-Package Management on Windows{data-background="images/Picture2.jpg"}
+Package Management on Windows{data-background="../docs/images/Picture2.jpg"}
 --------------------------------------------------------------------
 Using ``pip``, wheels, virtualenvs
  - Packaged with distributions of Python
@@ -101,7 +101,7 @@ What are Virtual Environments
  - Can contain a unique set of packages
  - Useful when working on multiple projects at one time
 
-What about Windows? {data-background="images/Picture2.jpg"}
+What about Windows? {data-background="../docs/images/Picture2.jpg"}
 -------------------
  * We are particularly stuck on Windows which lacks broadly used package management 
  * Only developers have a C compiler on their machine (Typically Visual Studio)
@@ -112,10 +112,10 @@ What about Windows? {data-background="images/Picture2.jpg"}
 
 Enter Conda
 ===========
-![](images/logos/continuum_analytics.png){style="width: 200px; background-color: rgba(255, 255, 255, 1);"}
-![](images/logos/conda_logo.png){style="width: 200px; background-color: rgba(255, 255, 255, 1);"}
+![](../docs/images/logos/continuum_analytics.png){style="width: 200px; background-color: rgba(255, 255, 255, 1);"}
+![](../docs/images/logos/conda_logo.png){style="width: 200px; background-color: rgba(255, 255, 255, 1);"}
 
-Why Conda? {data-background="images/Picture2.jpg"}
+Why Conda? {data-background="../docs/images/Picture2.jpg"}
 ----------
  - Scientific Python community identified that there was a gap not being addressed by the core Python infrastructure, limiting their ability to get packages into the hands of users
  - Industry standard built by people who care about this space &mdash; Continuum Analytics
@@ -131,10 +131,10 @@ experience.
  - In-app user interface
  - Packaging effort for Esri Python code
 
-Using Packages to our Advantage {data-background="images/Picture5.jpg"}
+Using Packages to our Advantage {data-background="../docs/images/Picture5.jpg"}
 =======================================================================
 
-Open Source Ecosystem ![](images/logos/anaconda_mini.png){class="tight"} {data-background="images/Picture5.jpg"}
+Open Source Ecosystem ![](../docs/images/logos/anaconda_mini.png){class="tight"} {data-background="../docs/images/Picture5.jpg"}
 ----------------------------------------------------------------------------------------------------------------
 
  - The Python Ecosystem includes thousands of open-source packages

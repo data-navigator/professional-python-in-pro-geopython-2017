@@ -21,7 +21,8 @@ fullpdf:
 	cd ~/dev-summit/decktape && bin/phantomjs decktape.js --pause=3000 --url=$(public_loc) --filename=$(slide_dir)/$(event)-$(deck)-demo-full.pdf
 
 clean:
-	rm index.html $(event)-$(deck)-presentation-handout.pdf $(event)-$(deck)-presentation-full.pdf
+	rm ../docs/index.html ../docs/$(event)-$(deck)-presentation-handout.pdf
+	../docs/$(event)-$(deck)-presentation-full.pdf
 
 upload:
 	rsync --partial --progress -r . 4326.us:esri/$(short) && open $(public_loc)
