@@ -1,7 +1,7 @@
 % Professional Python Development in ArcGIS Pro
 % Clinton Dow
 
-<section>
+<section data-background="../docs/images/Picture2.png">
 <h3>[High Quality PDF (2MB)](https://data-navigator.github.io/professional-python-in-pro-geopython-2017/geopython-2017-pro-presentation-handout.pdf)</h3>
 </section>
 
