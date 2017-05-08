@@ -1,10 +1,10 @@
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <link rel="shortcut icon" href="reveal.js/favicon.ico">
   <meta name="generator" content="pandoc">
-  <meta name="author" content="Clinton Dow">
-  <title>Professional Python Development in ArcGIS Pro</title>
+  <title></title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -32,65 +32,137 @@
   <div class="reveal">
     <div class="slides">
 
-<section data-background="images/title.png" class="title">
-  <h1 class="title">Professional Python Development in ArcGIS Pro</h1>
-  <h2 class="author">Clinton Dow</h2>
-</section>
 
 <section class="slide level2">
 
-<section data-background="images/Picture2.png">
-<h3>
-<a href="https://data-navigator.github.io/professional-python-in-pro-geopython-2017/geopython-2017-pro-presentation-handout.pdf">High Quality PDF (2MB)</a>
-</h3>
+<section data-background="../docs/images/title.png">
+<h1>
+Professional Python Development in ArcGIS Pro
+</h1>
+<br>
+<h2>
+Clinton Dow
+</h2>
 </section>
 </section>
-<section><section id="introduction" class="titleslide slide level1" data-background="images/Picture2.png"><h1>Introduction</h1></section><section id="intro" class="slide level2">
-<h2>Intro</h2>
-<p>About me: - Product Engineer - Geoprocessing at Esri (1 year 8 months) - Python - ArcPy - Conda Integration - C#/WPF - Python Backstage - Charts and Graphs - Presentations - Previously a GIS Developer at Matrix Solutions in Calgary - Civil Engineering/Environmental Consultant Firm - Created several dozen custom Geoprocessing tools in Python - Customized ArcGIS with Python and C#/WPF</p>
-</section></section>
-<section><section id="esri-arcgis" class="titleslide slide level1"><h1>Esri ArcGIS</h1></section><section id="setting-up-arcgis-pro" class="slide level2">
-<h2>Setting up ArcGIS Pro</h2>
+<section id="high-quality-pdf-2mb" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2><a href="https://data-navigator.github.io/professional-python-in-pro-geopython-2017/geopython-2017-pro-presentation-handout.pdf">High Quality PDF (2MB)</a></h2>
+</section>
+<section><section id="introduction" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Introduction</h1></section><section id="todays-presentation" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Today’s Presentation</h2>
+<p>Overview of ArcGIS Pro</p>
 <ul>
-<li><strong>Windows Only</strong></li>
-<li>Free Windows VMs</li>
-<li>(http://bit.ly/FreeWindowsVM)</li>
-<li>Free ArcGIS Pro</li>
-<li>(http://bit.ly/ArcPyProTrial)</li>
-<li>ArcPy Documentation</li>
-<li>http://bit.ly/ArcPyDocs</li>
+<li>Work accomplished in the past year</li>
+<li>Tour of Documentation and Code samples</li>
+<li>Esri’s open source participation and integration</li>
+<li>Explanation of Tool creation concepts</li>
 </ul>
-</section><section id="why-arcgis" class="slide level2" data-background="images/Picture2.png">
-<h2>Why ArcGIS? <img src="../docs/images/logos/Arcgis-logo.png" class="tight" /></h2>
+</section><section id="product-engineer---geoprocessing-at-esri-california-1-year-8-months" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Product Engineer - Geoprocessing at Esri California (1 year 8 months)</h2>
+<p><br></p>
 <ul>
-<li>Powerful and Proven technology
+<li><p>Python</p></li>
+<li>ArcPy</li>
+<li><p>Conda Integration</p></li>
+<li><p>C#/WPF</p></li>
+<li>Python Backstage</li>
+<li><p>Charts and Graphs</p></li>
+<li><p>Presentations</p></li>
+</ul>
+</section><section id="gis-developer-at-matrix-solutions-in-calgary-2-years" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>GIS Developer at Matrix Solutions in Calgary (2 years)</h2>
 <ul>
-<li>ARC/INFO released in 1982</li>
-<li>ArcGIS in 1999</li>
-<li>ArcGIS Pro in 2015</li>
-</ul></li>
-<li>Extensive Python Support:</li>
-<li><a href="http://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm">ArcPy</a></li>
-<li><a href="https://developers.arcgis.com/python/">ArcGIS Python API</a></li>
-<li>Second-to-None Documentation</li>
-<li>Esri Blog</li>
-<li>Esri Press</li>
-<li>ArcGIS Help</li>
-<li>Supports multiple GIS Applications</li>
-<li>ArcGIS Desktop</li>
+<li>Civil Engineering/Environmental Consultant Firm</li>
+<li>Created several dozen custom Geoprocessing tools in Python</li>
+<li>Customized ArcGIS with Python and C#/WPF</li>
+</ul>
+</section></section>
+<section><section id="esri-arcgis" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Esri ArcGIS <img src="../docs/images/logos/esri_logo_lrg.png" class="tight" /></h1></section><section id="setting-up-arcgis-pro" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Setting up ArcGIS Pro</h2>
+<p><strong>Windows Only</strong></p>
+<p>Free Windows VMs - <a href="http://bit.ly/FreeWindowsVM" class="uri">http://bit.ly/FreeWindowsVM</a></p>
+<p>Free ArcGIS Pro - <a href="http://bit.ly/ArcPyProTrial">(http://bit.ly/ArcPyProTrial</a></p>
+<p>ArcPy Documentation - <a href="http://bit.ly/ArcPyDocs" class="uri">http://bit.ly/ArcPyDocs</a></p>
+</section><section id="why-arcgis---powerful-and-proven-technology" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Why ArcGIS? - Powerful and Proven technology</h2>
+<p>ARC/INFO released in 1982</p>
+<figure>
+<img src="../docs/images/arcinfo7_logo.gif" />
+</figure>
+<p>ArcGIS in 1999</p>
+<figure>
+<img src="../docs/images/arcgis_9_logo.jpg" />
+</figure>
+</section><section id="why-arcgis---powerful-and-proven-technology-1" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Why ArcGIS? - Powerful and Proven technology</h2>
+<p><br> ArcGIS Pro in 2015</p>
+<p><img src="../docs/images/pro.png" /> <br> <br></p>
+<p>Extensive Python Support:</p>
+<ul>
+<li><p><a href="http://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm">ArcPy</a></p></li>
+<li><p><a href="https://developers.arcgis.com/python/">ArcGIS Python API</a></p></li>
+</ul>
+<p><br> Integrated Python Interpreter</p>
+<figure>
+<img src="../docs/images/python_window.png" />
+</figure>
+</section><section id="why-arcgis---documentation" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Why ArcGIS? - Documentation</h2>
+<p>Second-to-None Documentation</p>
+<p>Esri Blog - <a href="https://blogs.esri.com/esri/arcgis/category/subject-python/" class="uri">https://blogs.esri.com/esri/arcgis/category/subject-python/</a></p>
+<p>Esri Press - <a href="http://esripress.esri.com/display/index.cfm" class="uri">http://esripress.esri.com/display/index.cfm</a></p>
+<p>ArcGIS Help - <a href="https://pro.arcgis.com/en/pro-app/help/main/welcome-to-the-arcgis-pro-app-help.htm" class="uri">https://pro.arcgis.com/en/pro-app/help/main/welcome-to-the-arcgis-pro-app-help.htm</a></p>
+<p>GeoNet - <a href="https://geonet.esri.com" class="uri">https://geonet.esri.com</a></p>
+<ul>
+<li>Esri Forums/Social Network</li>
+<li>Python Community</li>
+<li><a href="https://geonet.esri.com/community/developers/gis-developers/python" class="uri">https://geonet.esri.com/community/developers/gis-developers/python</a></li>
+</ul>
+</section><section id="why-arcgis---versatility" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Why ArcGIS? - Versatility</h2>
+<p>Supports multiple GIS Applications</p>
+<ul>
+<li>ArcGIS Desktop (Includes ArcGIS Pro)</li>
 <li>ArcGIS Enterprise</li>
 <li>ArcGIS Online</li>
-<li>Rich source of GIS Data</li>
-<li>ArcGIS Online provides thousands of ready-to-go datasets.</li>
-<li>Large selection of Plugins</li>
-<li>https://marketplace.arcgis.com/</li>
-<li>Included suite of cartographic symbology.</li>
-<li>Industry Standard solution - Used by Governments, Fortune 500 companies and Individuals.
+</ul>
+<p>Includes over 1000 Geoprocessing Tools</p>
+<ul>
+<li>From simple (Buffer, Spatial Join)</li>
+<li>To Complex (Space-Time Cube, Generate Tessellation)</li>
+</ul>
+<p>Advanced Projection Engine</p>
+<ul>
+<li>Supports dozens of projections/transformations</li>
+</ul>
+</section><section id="why-arcgis---geospatial-data" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Why ArcGIS? - Geospatial Data</h2>
+<p>Rich source of GIS Data</p>
+<ul>
+<li>ArcGIS Online provides thousands of ready-to-go data sets.
+<ul>
+<li>Living Atlas of The World</li>
+<li>ArcGIS Online</li>
+</ul></li>
+</ul>
+<p>Large selection of Plugins</p>
+<ul>
+<li><a href="https://marketplace.arcgis.com/" class="uri">https://marketplace.arcgis.com/</a></li>
+</ul>
+</section><section id="why-arcgis---industry-standard" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Why ArcGIS? - Industry Standard</h2>
+<p>Included suite of cartographic symbology.</p>
+<p>Industry Standard solution</p>
+<ul>
+<li>Used by Governments, Fortune 500 companies and Individuals.
 <ul>
 <li>Swiss Gov’t examples (Canton Governments, Swiss Institute of Forest, Snow and Landscape Research etc)</li>
 </ul></li>
 </ul>
-</section><section id="why-arcgis-pro" class="slide level2" data-background="images/Picture2.png">
+<figure>
+<img src="../docs/images/cartogram_of_swiss_cantons1.png" style="width: 400px; height: 200px; background-color: rgba(255, 255, 255, 1);" />
+</figure>
+</section><section id="why-arcgis-pro" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Why ArcGIS Pro?</h2>
 <p>Modern View for ArcGIS:</p>
 <ul>
@@ -100,20 +172,34 @@
 <li>Modern Python Experience</li>
 <li>Supports environments and packages via Conda</li>
 </ul>
+</section><section id="arcgis-pro" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>ArcGIS Pro</h2>
 <figure>
-<img src="../docs/images/logos/arcgis_pro_python.png" style="width: 200px; background-color: rgba(255, 255, 255, 1);" />
+<img src="../docs/images/pro_full.png" style="width: 1000px; height=780px; background-color: rgba(255, 255, 255, 1);" />
 </figure>
 </section></section>
-<section><section id="python-packages-and-environments" class="titleslide slide level1"><h1>Python Packages and Environments</h1></section><section id="package-management-on-windows" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<section><section id="python-packages-and-environments" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Python Packages and Environments</h1></section><section id="package-management-on-windows" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Package Management on Windows</h2>
-<p>Using <code>pip</code>, wheels, virtualenvs - Packaged with distributions of Python - These tools handle the harder problem of system dependencies, considered out of scope by Python packagers — does it end up in <code>site-packages</code>? - Package devs: On OSX and Linux, ‘easy’ to get the deps! Use a system package manager (e.g. <code>apt</code>, <code>brew</code>, <code>yum</code>) and the included compiler (e.g. <code>clang</code>, <code>gcc</code>).</p>
-</section><section id="virtual-environments" class="slide level2">
+<p>Using pip, wheels, virtualenvs</p>
+<ul>
+<li>Packaged with distributions of Python</li>
+<li>These tools handle the harder problem of system dependencies, considered out of scope by Python packagers — does it end up in site-packages?</li>
+<li>Package devs: On OSX and Linux, ‘easy’ to get the deps! Use a system package manager (e.g. apt, brew, yum)</li>
+<li>Included Compiler (e.g. clang, gcc).</li>
+</ul>
+</section><section id="virtual-environments" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Virtual Environments</h2>
-<p>What are Virtual Environments - Self-contained instances of Python - Seperate from main Python installation - Can contain a unique set of packages - Useful when working on multiple projects at one time</p>
+<p>What are Virtual Environments</p>
+<ul>
+<li>Self-contained instances of Python</li>
+<li>Seperate from main Python installation</li>
+<li>Can contain a unique set of packages</li>
+<li>Useful when working on multiple projects at one time</li>
+</ul>
 </section><section id="what-about-windows" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>What about Windows?</h2>
+<p>Windows lacks broadly used package management</p>
 <ul>
-<li>We are particularly stuck on Windows which lacks broadly used package management</li>
 <li>Only developers have a C compiler on their machine (Typically Visual Studio)</li>
 <li>A hard problem for many organizations to reliably solve</li>
 <li>“Works on my machine but not yours” problem.</li>
@@ -121,120 +207,333 @@
 <li>No guarantee that customers will be supported</li>
 </ul>
 </section></section>
-<section><section id="enter-conda" class="titleslide slide level1"><h1>Enter Conda</h1></section><section id="why-conda" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<section><section id="enter-conda" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Enter Conda</h1></section><section id="why-conda" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Why Conda?</h2>
-<ul>
-<li>Scientific Python community identified that there was a gap not being addressed by the core Python infrastructure, limiting their ability to get packages into the hands of users</li>
-<li>Industry standard built by people who care about this space — Continuum Analytics</li>
-<li>Handles dependencies for many languages (C, C++, R and of course Python)</li>
-<li>Built for Python first, but it really solves a much broader infrastructural issue.</li>
-</ul>
-</section><section id="conda-in-arcgis-pro" class="slide level2">
+<p>Scientific Python community identified that there was a gap not being addressed by the core Python infrastructure, limiting their ability to get packages into the hands of users</p>
+<p>Industry standard built by people who care about this space — Continuum Analytics</p>
+<p>Handles dependencies for many languages (C, C++, R and of course Python)</p>
+<p>Built for Python first, but it really solves a much broader infrastructural issue.</p>
+</section><section id="conda-in-arcgis-pro" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Conda in ArcGIS Pro</h2>
-<p>Significant effort has been made at Esri to integrate the conda package manager and virtual environment experience into the ArcGIS Pro experience. - Shipped with environment support - In-app user interface - Packaging effort for Esri Python code</p>
-</section></section>
-<section><section id="using-packages-to-our-advantage" class="titleslide slide level1" data-background="../docs/images/Picture5.jpg"><h1>Using Packages to our Advantage</h1></section><section id="open-source-ecosystem" class="slide level2" data-background="../docs/images/Picture5.jpg">
-<h2>Open Source Ecosystem <img src="../docs/images/logos/anaconda_mini.png" class="tight" /></h2>
+<p>Significant effort has been made at Esri to integrate the conda package manager and virtual environment experience into the ArcGIS Pro experience.</p>
 <ul>
-<li>The Python Ecosystem includes thousands of open-source packages</li>
-<li>Esri is using several packages</li>
+<li>Shipped with environment support</li>
+<li>In-app user interface</li>
+<li>Packaging effort for Esri Python code</li>
+</ul>
+</section><section id="conda-in-arcgis-pro-1" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Conda in ArcGIS Pro</h2>
+<figure>
+<img src="../docs/images/pro_conda.png" style="width: 1000px; height=780px; background-color: rgba(255, 255, 255, 1);" />
+</figure>
+</section><section id="coming-soon" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Coming Soon</h2>
+<p>Support for custom channels</p>
+<ul>
+<li>Public Channels</li>
+<li>Private Channels</li>
+</ul>
+<p><br> Package Creation via UI</p>
+<ul>
+<li>Currently only available in cmd line</li>
+<li>Share packages with colleagues and customers</li>
+</ul>
+<p><br> Additional Support on Server</p>
+<ul>
+<li>Conda packages and environments fully supported on Enterprise</li>
+<li>ArcGIS Python API Notebooks served on Enterprise</li>
+</ul>
+</section></section>
+<section><section id="using-packages-to-our-advantage" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Using Packages to our Advantage</h1></section><section id="open-source-ecosystem" class="slide level2" data-background="../docs/images/Picture5.jpg">
+<h2>Open Source Ecosystem</h2>
+<p>The Python Ecosystem includes thousands of open-source packages</p>
+<p>Esri is using several packages in ArcGIS</p>
+<ul>
 <li>NumPy</li>
 <li>SciPy</li>
 <li>matplotlib</li>
-<li>Pandas</li>
-<li>Automate or Extend your ArcGIS capabilities</li>
-<li>Easily package and share your work</li>
+<li>Pandas (coming soon)</li>
 </ul>
-</section><section id="setting-up-a-development-environment" class="slide level2">
-<h2>Setting up a Development Environment</h2>
+</section><section id="open-source-ecosystem-1" class="slide level2" data-background="../docs/images/Picture5.jpg">
+<h2>Open Source Ecosystem</h2>
+<p>Automate or Extend your ArcGIS capabilities</p>
 <ul>
-<li>What can we install? Not just scientific packages.</li>
+<li><a href="https://repo.continuum.io/pkgs/">Thousands of open-souce Python packages</a></li>
+<li><a href="https://conda-forge.github.io/feedstocks">Conda-Forge community</a></li>
+</ul>
+<p>Easily package and share your work</p>
+<ul>
+<li><a href="https://github.com/conda/conda-build">Conda-build</a></li>
+<li><a href="https://anaconda.org/esri">Anaconda.org</a></li>
+<li>Host packages on network</li>
+</ul>
+</section><section id="setting-up-a-development-environment" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Setting up a Development Environment</h2>
+<p>What can we install? Not just scientific packages.</p>
+<ul>
 <li>Documentation</li>
 <li>Datasets</li>
 <li>GUI toolkits (PyQt, TKinter)</li>
 <li>Database Drivers (psycopg2)</li>
 <li>C++ Libraries (Boost)</li>
-<li>IDEs (Spyder, Juptyer)</li>
+<li>IDEs
+<ul>
+<li><a href="https://github.com/spyder-ide/spyder#overview">Spyder</a></li>
+<li><a href="https://jupyter.org/">Juptyer</a></li>
+</ul></li>
+</ul>
+</section><section id="setting-up-a-production-environment" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Setting up a Production Environment</h2>
+<p>Proven environments that will ‘Just work’</p>
+<ul>
+<li>Solves ‘works on my machine’ problem</li>
+<li>Metapackages
+<ul>
+<li>Packages which only have requirements</li>
+</ul></li>
+<li><a href="https://conda.io/docs/using/envs.html#id12">Environment.yaml</a>
+<ul>
+<li>More complex requirements.txt</li>
+</ul></li>
 </ul>
 </section></section>
-<section><section id="working-with-customers" class="titleslide slide level1"><h1>Working with Customers</h1></section><section id="requirements-analysis" class="slide level2">
+<section><section id="working-with-customers" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Working with Customers</h1></section><section id="requirements-analysis" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Requirements Analysis</h2>
-<p>Determining user expectations for a new or modified product - Identify Stakeholders - Eliciting Requirements - Stakeholder interviews - Ethnography - Analyzing Requirements - Clear - Complete - Consistent - Recording Requirements - User Stories - Use Cases</p>
-</section><section id="test-driven-development" class="slide level2">
+<p>Determining user expectations for a new or modified product</p>
+<ul>
+<li><p>Identify Stakeholders</p></li>
+<li>Eliciting Requirements</li>
+<li><p>Stakeholder interviews</p></li>
+<li>Analyzing Requirements</li>
+<li>Clear</li>
+<li>Complete</li>
+<li><p>Consistent</p></li>
+<li>Recording Requirements</li>
+<li>User Stories</li>
+<li><p>Use Cases</p></li>
+</ul>
+</section><section id="test-driven-development" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Test Driven Development</h2>
-<p>Turning valid requirements into testable code - Identifying units of work - Defining functional extent of units - Writing tests to encapsulate functionality</p>
-</section><section id="efficient-testing-with-arcpy" class="slide level2">
+<p>Turning valid requirements into testable code</p>
+<ul>
+<li>Identifying units of work</li>
+<li>Preexisting tools?</li>
+<li>Defining functional extent of units</li>
+<li>Writing tests to encapsulate functionality</li>
+</ul>
+<figure>
+<img src="../docs/images/comic.gif" />
+</figure>
+</section><section id="tdd-in-python" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>TDD in Python</h2>
+<p>Several test suites available</p>
+<ul>
+<li><a href="https://docs.pytest.org/en/latest/">Pytest</a></li>
+<li><a href="http://nose.readthedocs.io/en/latest/">Nose</a></li>
+<li><a href="https://docs.python.org/3/library/unittest.html">unittest</a></li>
+</ul>
+</section><section id="efficient-testing-with-arcpy" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Efficient Testing with ArcPy</h2>
-<p>Extra considerations for Geospatial tools - Data set types - Projections - UI interactions</p>
+<p>Extra considerations for Geospatial tools</p>
+<ul>
+<li>Data set types</li>
+<li>Feature Class (Geodatabase)</li>
+<li>Shapefiles (Esri Open-Source Format)</li>
+<li><p>GeoJSON (Generic Open-Source Format)</p></li>
+<li>Projections</li>
+<li>Data Frame (View)</li>
+<li><p>Data Sets</p></li>
+<li>UI interactions</li>
+<li><p>Data Validation</p></li>
+</ul>
 </section></section>
-<section><section id="version-control-as-a-communication-tool" class="titleslide slide level1"><h1>Version Control as a Communication Tool</h1></section><section id="what-is-git" class="slide level2">
+<section><section id="version-control-as-a-communication-tool" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Version Control as a Communication Tool</h1></section><section id="what-is-git" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>What is Git?</h2>
-<p>A distributed version control system. - Originally made for linux developers - Arguably the most popular open-source version control - Heavily used in Conda packaging workflow</p>
-</section><section id="why-git" class="slide level2">
+<p><a href="https://git-scm.com/">Git</a></p>
+<p>A distributed version control system.</p>
+<ul>
+<li>Originally made for linux developers</li>
+<li>Arguably the most popular open-source version control</li>
+<li>Heavily used in Conda packaging workflow</li>
+</ul>
+</section><section id="why-git" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Why Git?</h2>
-<p>Features of Git that support Conda packaging - Commit hash as version number - Natively supports cross-language projects - Packages can ‘cherry-pick’ parts of repos - Also can aggregate multiple repos</p>
-</section><section id="what-is-github" class="slide level2">
+<p>Features of Git that support Conda packaging</p>
+<ul>
+<li>Commit hash as version number</li>
+<li>Excellent for testing development versions</li>
+<li>Packages can ‘cherry-pick’ parts of repositories</li>
+<li>Production packages may not include tests etc.</li>
+<li>Develop with a team</li>
+<li>Intuitive branching and merging</li>
+</ul>
+<figure>
+<img src="../docs/images/git_branching.png" />
+</figure>
+</section><section id="what-is-github" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>What is Github</h2>
-<p>Github promotes ‘Social Coding’ a combination of Version Control and Social Media - Ease of Collaboration - Ease of Communication - Ease of Distribution Esri on Github - https://www.github.com/Esri - https://www.github.com/arcpy</p>
-</section><section id="github-as-a-communication-tool" class="slide level2">
+<p><a href="https://github.com">Github</a></p>
+<p>Github promotes ‘Social Coding’ a combination of Version Control and Social Media</p>
+<ul>
+<li>Ease of Collaboration</li>
+<li>Ease of Communication</li>
+<li>Ease of Distribution</li>
+</ul>
+<p>Esri on Github</p>
+<ul>
+<li>https://www.github.com/Esri</li>
+<li>https://www.github.com/arcpy</li>
+</ul>
+</section><section id="github-as-a-communication-tool" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Github as a Communication Tool</h2>
-<p>Github offers several features which enhance communication - Issue tracking - Tags - User Notifications - Repository Forking</p>
+<p>Github offers several features which enhance communication - <a href="https://github.com/Esri/esri-leaflet/issues">Issue tracking</a> - Tags - User Notifications - Repository Forking - Create your own version of code</p>
 </section></section>
-<section><section id="creating-tools-in-arcgis-pro" class="titleslide slide level1"><h1>Creating Tools in ArcGIS Pro</h1></section><section id="tbx-toolboxes" class="slide level2">
+<section><section id="beginner-python---python-features-in-arcgis-pro-ui" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Beginner Python - Python Features in ArcGIS Pro UI</h1></section><section id="python-window" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Python Window</h2>
+<p>Quick means of interacting with ArcGIS Pro using Python</p>
+<ul>
+<li>Good way to practice and test concepts</li>
+<li>View help documentation for ArcPy functions</li>
+<li>Import and Export Python Scripts</li>
+</ul>
+<p>Interactive Selections</p>
+<ul>
+<li>Operate on data selected on Map</li>
+<li>Automatically show result in Map</li>
+</ul>
+</section><section id="field-calculator" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Field Calculator</h2>
+<p>Leverage the power of Python to enhance your data sets</p>
+<ul>
+<li><a href="http://pro.arcgis.com/en/pro-app/help/data/tables/fundamentals-of-field-calculations.htm">Utilize Python to calculate new fields</a></li>
+<li>Available through Pro UI</li>
+<li>Extract code to Scripts</li>
+<li><a href="https://pro.arcgis.com/en/pro-app/arcpy/data-access/what-is-the-data-access-module-.htm">Data access ArcPy module</a></li>
+<li>Calculate fields using Cursors without UI interaction</li>
+</ul>
+<figure>
+<img src="../docs/images/field_calc.png" style="width: 500px; height=480px; background-color: rgba(255, 255, 255, 1);" />
+</figure>
+</section></section>
+<section><section id="intermediate-python---creating-tools-in-arcgis-pro" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Intermediate Python - Creating Tools in ArcGIS Pro</h1></section><section id="tbx-toolboxes" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>TBX Toolboxes</h2>
-<p>The original ArcGIS toolbox. - Created via the ArcGIS GUI - Tool Validation not set in Python script - Set via ‘Properties’ menu of tool in ArcGIS - Out of scope for this Presentation</p>
-</section><section id="python-toolboxes" class="slide level2">
+<p><a href="https://geonet.esri.com/blogs/dan_patterson/2016/05/19/toolbox-creation-in-arcgis-pro">The original ArcGIS toolbox.</a> - Created via the ArcGIS GUI - Tool Validation not set in Python script - Set via ‘Properties’ menu of tool in ArcGIS</p>
+</section><section id="python-toolboxes" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Python Toolboxes</h2>
-<p>ArcGIS toolboxes revisited in Python - All steps defined in a .pyt file - Validation defined within script - Works with Python IDEs - Define .pyt as a Python filetype in settings - Toolbox Class - <strong>init</strong> - self.tools - Tool Class - <strong>init</strong> - Validation - Logic</p>
-</section><section id="tool-validation" class="slide level2">
+<p><a href="http://pro.arcgis.com/en/pro-app/arcpy/geoprocessing_and_python/a-quick-tour-of-python-toolboxes.htm">ArcGIS toolboxes revisited in Python</a> - All steps defined in a .pyt file - Ease of testing &amp; debugging - Validation defined within script - Works with Python IDEs - Define .pyt as a Python file type in settings - Syntax Highlighting - Autocomplete</p>
+</section><section id="python-toolboxes-1" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Python Toolboxes</h2>
+<p><a href="http://pro.arcgis.com/en/pro-app/arcpy/geoprocessing_and_python/a-template-for-python-toolboxes.htm">Python Toolbox (.pyt) Files</a> - Toolbox Class - <strong>init</strong> - self.tools - Tool Class - <strong>init</strong> - Validation - Logic</p>
+</section><section id="tool-validation" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Tool Validation</h2>
 <p>ArcGIS Supports Dozens of Data Types - Ensure the inputs supplied by the user are valid - Dynamically populate fields with values - Inform users when unexpected or unusable data is present</p>
-</section><section id="inputoutput-parameters" class="slide level2">
+</section><section id="inputoutput-parameters" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Input/Output Parameters</h2>
 <p>Defining Parameters Working with Input Parameters - GetInputParameter - GetInputParameterAsText - Parameters from Command Line Working with Output Parameters - Schema - ParameterDependencies</p>
-</section><section id="getparameterinfo" class="slide level2">
+</section><section id="getparameterinfo" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>getParameterInfo</h2>
 <p>Populate the values of a Tool’s Parameters - Called when the tool is opened. - Populate input parameters with inital values</p>
-</section><section id="updateparameters" class="slide level2">
+</section><section id="updateparameters" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>updateParameters</h2>
 <p>Refine and Modify the values of a Tool’s Parameters - Called whenever a parameter has been changed in the ArcGIS GUI - Frequent calls - Make method ‘inexpensive’ if possible - May use ‘global’ values to store results after first call</p>
-</section><section id="updatemessages" class="slide level2">
+</section><section id="updatemessages" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>updateMessages</h2>
 <p>Modify the Messages created when a Tool’s Parameters have changed - Called after validation has been performed. - Display a Warning or Error to users if Parameters have bad values</p>
-</section><section id="islicensed" class="slide level2">
+</section><section id="islicensed" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>isLicensed</h2>
 <p>Query the license system to ensure the tool can run at the current license level. - Checking for licenses</p>
-</section><section id="execute" class="slide level2">
+</section><section id="execute" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>execute</h2>
-<p>The tool’s source code which is run upon tool execution. -</p>
-</section><section id="tool-logic" class="slide level2">
-<h2>Tool Logic</h2>
-<p>Where the Geoprocessing of data is accomplished - This is the only part of the code which should call Geoprocessing Tools - Returns either a dataset or a status code - SetSeverityLevel - SetOutputParameter</p>
-</section></section>
-<section><section id="modular-design" class="titleslide slide level1"><h1>Modular Design</h1></section><section id="validation-modules" class="slide level2">
-<h2>Validation modules</h2>
-<p>For each validation requirement: - Create a function which will validate a dataset - Create a dataset which satisfies the validation requirements - Create one or more datasets which do not satisfy requirements - Write validation functions</p>
-</section><section id="debuggingtesting-tool-validation" class="slide level2">
-<h2>Debugging/Testing Tool Validation</h2>
-<p>Creating tests for validation: - Validation accomplishes two things - Ensuring the data set is ‘clean’ - Ensuring the data set will not crash the tool - Two types of tests - Correct data does not trigger any errors - Incorrect data is error handled and returns a message</p>
-</section><section id="planning-the-logic-of-a-tool" class="slide level2">
-<h2>Planning the Logic of a Tool</h2>
-<p>For each requirement in a tool: - Create a function which accomplishes the requirement statement - Call the function from the applicable test method(s) - Commit when the code passes the test(s)</p>
-</section><section id="granularity-in-tool-design" class="slide level2">
-<h2>Granularity in Tool Design</h2>
-<p>Can we break a tool into multiple tools? - Does any requirement make sense as a standalone tool? -</p>
-</section><section id="reusing-modular-code" class="slide level2">
-<h2>Reusing Modular Code</h2>
-<p>Tool Metadata - Tags</p>
-</section></section>
-<section><section id="conda-environments" class="titleslide slide level1"><h1>Conda Environments</h1></section><section id="development-environments" class="slide level2">
-<h2>Development Environments</h2>
+<p>The tool’s source code which is run upon tool execution. - Error Handling - AddMessage - AddWarning - AddError</p>
+<p>Where the Geoprocessing of data is accomplished - Set output dataset to allow for chaining in ModelBuilder - SetOutputParameter</p>
+</section><section id="model-builder" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Model Builder</h2>
+<p><a href="http://pro.arcgis.com/en/pro-app/help/analysis/geoprocessing/modelbuilder/what-is-modelbuilder-.htm">Model Builder</a></p>
+<p>Allows for visual creation of Geoprocessing tools</p>
 <ul>
-<li>Contains features in development</li>
+<li>Consume custom geoprocessing tools</li>
+<li>Ensure you are setting an output!</li>
+<li>Export to Python code</li>
+<li>A good way to introduce scripting concepts</li>
+</ul>
+<figure>
+<img src="../docs/images/modelbuilder.png" />
+</figure>
+</section></section>
+<section><section id="advanced-python---modular-design-and-packages" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Advanced Python - Modular Design and Packages</h1></section><section id="validation-modules" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Validation modules</h2>
+<p>For each validation requirement:</p>
+<ul>
+<li>Create a function which will validate a dataset</li>
+<li>Create a dataset which satisfies the validation requirements</li>
+<li>Create one or more datasets which do not satisfy requirements</li>
+<li>Write validation functions</li>
+</ul>
+</section><section id="debuggingtesting-tool-validation" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Debugging/Testing Tool Validation</h2>
+<p>Creating tests for validation:</p>
+<ul>
+<li>Validation accomplishes two things</li>
+<li>Ensuring the data set is ‘clean’</li>
+<li>Ensuring the data set will not crash the tool</li>
+<li>Two types of tests</li>
+<li>Correct data does not trigger any errors</li>
+<li>Incorrect data is error handled and returns a message</li>
+</ul>
+</section><section id="planning-the-logic-of-a-tool" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Planning the Logic of a Tool</h2>
+<p>For each requirement in a tool:</p>
+<ul>
+<li>Create a function which accomplishes the requirement statement</li>
+<li>Call the function from the applicable test method(s)</li>
+<li>Commit when the code passes the test(s)</li>
+</ul>
+</section><section id="granularity-in-tool-design" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Granularity in Tool Design</h2>
+<p>Can we break a tool into multiple tools?</p>
+<ul>
+<li>Does any requirement make sense as a standalone tool?</li>
+<li>Can we chain the tools together based off input/output parameters?</li>
+<li>Can these sub-tools be made more robust?</li>
+<li>Handle more data types</li>
+<li>Improve processing speed</li>
+</ul>
+</section><section id="reusing-modular-code" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Reusing Modular Code</h2>
+<p>Tool Metadata</p>
+<ul>
+<li>Tags</li>
+<li>Documentation</li>
+</ul>
+</section></section>
+<section><section id="conda-environments" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Conda Environments</h1></section><section id="development-environments" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Development Environments</h2>
+<p>Contains features in development</p>
+<ul>
 <li>May use alpha/beta code</li>
 <li>Contain test modules &amp; data</li>
 <li>Mirrored by version control</li>
-<li>Contains packaging metadata</li>
+</ul>
+</section><section id="production-environments" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Production Environments</h2>
+<p>Stable environments in which to run tools/services</p>
+<ul>
+<li>Ship reference to env with Project, Tool etc</li>
+<li>Requires stable versions of packages</li>
+</ul>
+</section></section>
+<section><section id="packaging-tools-the-right-way" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Packaging Tools the Right Way</h1></section><section id="creating-a-package" class="slide level2" data-background="../docs/images/Picture2.jpg">
+<h2>Creating a Package</h2>
+<p>Using setuptools and distutils to create a Python Package.</p>
+<ul>
+<li>setuptools</li>
+<li>setup</li>
+<li>pkg_resources</li>
+<li>distutils</li>
+<li>Legacy, use setuptools if possible</li>
+</ul>
+<p>Creating a conda package</p>
+<ul>
 <li>bld.bat/bld.sh</li>
 <li>LICENSE</li>
 <li>Manifest.in</li>
@@ -242,33 +541,33 @@
 <li>README.md</li>
 <li>setup.py</li>
 </ul>
-</section><section id="production-environments" class="slide level2">
-<h2>Production Environments</h2>
-<ul>
-<li>Stable environments in which to run tools/services</li>
-<li>Requires stable versions of packages</li>
-<li></li>
-</ul>
-</section></section>
-<section><section id="packaging-tools-the-right-way" class="titleslide slide level1"><h1>Packaging Tools the Right Way</h1></section><section id="creating-a-package" class="slide level2">
-<h2>Creating a Package</h2>
-<p>Using setuptools and distutils to create a Python Package. - setuptools - setup - pkg_resources - distutils - Legacy, use setuptools if possible Creating a conda package - conda-build - meta.yaml</p>
-</section><section id="documenting-a-package" class="slide level2">
-<h2>Documenting a Package</h2>
-</section><section id="deploying-a-package-internally" class="slide level2">
+</section><section id="deploying-a-package-internally" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Deploying a Package Internally</h2>
-<p>On a network Via a http server</p>
-</section><section id="deploying-a-package-publicly" class="slide level2">
+<p>On a network - Point at a network location containing a package Via a http server - All advantages of any http service - Authentication - Metrics - Availability</p>
+</section><section id="deploying-a-package-publicly" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Deploying a Package Publicly</h2>
 <p>Python Package Index Anaconda.org Custom Server</p>
 </section></section>
-<section><section id="viewing-the-tool-output" class="titleslide slide level1"><h1>Viewing the Tool Output</h1></section><section id="tools-in-arcgis-pro" class="slide level2">
+<section><section id="viewing-the-tool-output" class="titleslide slide level1" data-background="../docs/images/Picture2.jpg"><h1>Viewing the Tool Output</h1></section><section id="tools-in-arcgis-pro" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Tools in ArcGIS Pro</h2>
-</section><section id="deploying-a-tool-as-a-service" class="slide level2">
+<p>Demonstration</p>
+<ul>
+<li>Geoprocessing History</li>
+<li>Stack-trace when tool fails</li>
+<li>Result File</li>
+</ul>
+</section><section id="deploying-a-tool-as-a-service" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Deploying a Tool as a Service</h2>
-</section><section id="consuming-services-via-the-arcgis-python-api" class="slide level2">
+<p>Tools and data sets can be uploaded to ArcGIS Enterprise or ArcGIS Online as services.</p>
+<p>Demonstration</p>
+</section><section id="consuming-services-via-the-arcgis-python-api" class="slide level2" data-background="../docs/images/Picture2.jpg">
 <h2>Consuming services via the ArcGIS Python API</h2>
+<p>The ArcGIS Python API is a cross-platform solution which allows for users to view, administer and interact with services on ArcGIS Enterprise or ArcGIS Online.</p>
+<ul>
+<li>More info to come tomorrow!</li>
+</ul>
 </section></section>
+<section><section id="thank-you-questionscomments-cdowesri.com" class="titleslide slide level1"><h1>Thank you!! Questions/Comments?? cdow@esri.com</h1></section></section>
     </div>
   </div>
 
