@@ -678,7 +678,8 @@ Creating a conda package
 
 
 Deploying a Package Internally {data-background="../docs/images/Picture2.jpg"}
-------------------------------
+------------------------------------------------------------------------------
+
 On a network
  - Point at a network location containing a package
 Via a http server
@@ -688,7 +689,8 @@ Via a http server
    - Availability
 
 Deploying a Package Publicly {data-background="../docs/images/Picture2.jpg"}
-----------------------------
+----------------------------------------------------------------------------
+
 Python Package Index
 Anaconda.org
 Custom Server
