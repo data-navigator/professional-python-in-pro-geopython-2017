@@ -52,8 +52,9 @@ Computer Nerd (30 years) {data-background="img/bg_left.jpg"}
  - Community Moderation
  - Grown up with the internet and programming
 
-![](img/esri_logo_lrg.png){class="tight"}{data-background="img/bg_right.jpg"}
+{class="tight"}{data-background="img/bg_right.jpg"}
 ============================================================
+![](img/esri_logo_lrg.png)
 
 Why ArcGIS Pro? {data-background="img/bg_left.jpg"}
 ---------------------------------------------------------------
