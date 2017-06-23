@@ -8,7 +8,8 @@ Professional Python GIS Development with ArcGIS Pro
 
 Description
 -----------
-
+An overview of the Python experience in ArcGIS Pro including the development
+ work from early 2017.
 
 
 Building
