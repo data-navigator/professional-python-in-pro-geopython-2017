@@ -4,11 +4,7 @@ Professional Python GIS Development with ArcGIS Pro
 ### Clinton Dow
 ### GeoPython 2017
 
-**[View the Slides]()**
-
-**[
-Download High Quality Version (PDF, 4MB)
-]()**
+**[View the Slides](https://data-navigator.github.io/professional-python-in-pro-geopython-2017/#/)**
 
 Description
 -----------
